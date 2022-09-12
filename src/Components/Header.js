@@ -2,19 +2,17 @@ import React from 'react'
 import Logo from '../Main Logo.png'
 function Header() {
   return (
-    <div className='Header'>
+    <div className='Header mx-5 my-5'>
       <div className='Title'>
-        <img className='Logo' src={Logo} />
-        <h2 >HeyIt'sMe . . !</h2>
+        <h2 >HeyIt's<span>Me</span> . . !</h2>
       </div>
       <div className='Hotlinks'>
-          <h4>Home</h4>
-          <h4>Grad</h4>
-          <h4>Portfolio</h4>
-          <h4>Contact</h4>
+          <h4><a href='/'>Home</a></h4>
+          <h4><a href='/Grad'>Grad</a></h4>
+          <h4><a href='/Portfolio'>Portfolio</a></h4>
       </div>
     </div>
   )
 }
 
-export default Header
+export default Header;

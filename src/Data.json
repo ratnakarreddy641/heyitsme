@@ -1,0 +1,46 @@
+{
+  "Experiences": [
+    {
+      "Company": "Accenture",
+      "Position": "Application Development Associate",
+      "Role": "Associate Software Engineer",
+      "Skill": "SAP UI5 Fiori",
+      "DOJ": "2022",
+      "DOL": "Present"
+    },
+    {
+      "Company": "Symsin Pvt Ltd.",
+      "Position": "Android Developer",
+      "Role": "Software Engineer",
+      "Skill": "Android, Java",
+      "DOJ": "2020",
+      "DOL": "2021"
+    }
+    
+  ],
+  "Education":[
+    {
+      "College":"St. Martins Enginering College",
+      "Degree":"B.Tech",
+      "DOJ":"2018",
+      "DOL":"2022",
+      "Branch":"Electronics and Communication Engineering"
+    },
+    {
+      "College":"RRS College of Engineering and Technology",
+      "Degree":"Diploma",
+      "DOJ":"2015",
+      "DOL":"2018",
+      "Branch":"Electronics and Communication Engineering"
+    }
+  ],
+  "Projects":[
+    {
+      "Name":"RFID Based Smart Attendence System",
+      "TechStack":"RFID, Arduino, Android, Raspberry pi, GSM",
+      "Type":"Major - Final Year",
+      "Description":"2022",
+      "Link":"https://docs.google.com/document/d/1bdUZ_epQwgApNrilnl5UvQ54mrDbHmjY-iimpFWzwEk/edit?usp=sharing"
+    }
+  ]
+  }

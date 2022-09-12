@@ -1,54 +1,172 @@
 .Title {
   font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
   display: flex;
   align-items: center;
-  color: #112d4e;
+  color: #ffffff;
 }
-.Logo{
-  width:40px;
+
+.Logo {
+  width: 40px;
 }
 
 .Hotlinks {
   display: flex;
   align-items: center;
 }
-
+/* background: linear-gradient(#d61e2b, #9f101a); */
 .Hotlinks h4 {
   margin: 0 10px;
-  color: #3f72af;
+  color: #ffffff;
   font-family: "Josefin Sans", sans-serif;
+  cursor: pointer;
+  font: weight 400;
+}
+.Hotlinks h4:hover,.Hotlinks a:hover {
+  color: #d61e2b;
+}
+.Title h2:hover span{
+  color: #d61e2b;
+  transition: color 1s;
+
 }
 
 .Header {
-  margin: 0 20px;
   display: flex;
   justify-content: space-between;
 }
 
 
-.IntroSpace {
-  height:50vh;
+
+.Intro{
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Josefin Sans';
+  font-weight: 400;
+}
+.Intro h3{
+  margin-top: 8px;
+  color: #d61e2b;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.Intro h3 span{
+  opacity: 0;
+  transition: opacity 0.5s;
+  }
+.Intro h3:hover span{
+  opacity: 1;
+
+}
+
+.socials{
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+}
+.socials a{
+  margin: 0 10px;
+}
+.socialIcons{
+  width:30px
+}
+.Experiences{
+  margin-top: 20px;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
-.IntroText {
-  margin-left: 10%;
-  font-family: "Josefin Sans", sans-serif;
-  font-weight: 700;
-  font-size: large;
-  display: flex;
+/* #d61e2b, #9f101a */
+
+.Cards{
+  display: inline-flex;
+  width: 300px;
   flex-direction: column;
+  color: #ffffff;
+  background: linear-gradient(180deg,#d61e2b, #9f101a);
+  padding: 10px;
+  border-radius: 2px;
+  font-family: 'Josefin Sans';
+  font-weight: 500;
+  margin: 10px;
+  
+}
+.proj{
+  width: 500px !important;
 }
 
-.IntroText img {
-  width:40px;
+.Cards h3{
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.Cards h1{
+  font-weight: 300;  
+  font-size: 0.9rem;
+
+}
+.Heading{
+  margin-right: 20px;
+  font-family: 'Josefin Sans';
+  text-align: center;
+  color: #ffffff;
+  font-size: larger;
 }
 
-.IntroText h2 {
-  margin: 5px 0;
+.TagSection{
+  text-align: center;
+  font-family: 'Josefin Sans';
+  font-size: small;
+  display: flex;
+  color:black;
+  margin-left: 20px;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 120px;
 }
 
-.IntroText p {
-  margin: 5px 0;
+.TagMain{
+  margin-top: 20px;
+  font-family: 'Josefin Sans';
+  font-size: larger;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Tags{
+  height: 10px;
+  display: inline;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 20px;
+  color: #ffffff;
+  background-color: #1e1e1e;
+
+}
+
+
+footer{
+  font-family: 'Josefin Sans';
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  color: #b4b4b4;
+}
+
+
+.Contain{
+  display: flex ;
+  justify-content: space-between;
+  margin:0 10%;
+}
+.Contain h2{
+  font-family: 'Josefin sans';
+  color: #ffffff;
+  font-weight: 700;
+  text-align: center;
+  margin: 10px 0;
 }
